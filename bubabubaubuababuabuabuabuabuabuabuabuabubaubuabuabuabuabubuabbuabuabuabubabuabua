@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+    printf("digite um numero: ");
+    scanf ("%d", &i);
+    if (i>0){
+    printf ("é positivo");
+    }if (i<0){
+    printf ("é negativo");
+    }if (i==0){
+    printf ("é 0");
+    }
+
+    return 0;
+    
+}
